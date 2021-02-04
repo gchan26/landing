@@ -1,0 +1,148 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Utilities */
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("https://fastfoodsignage.co.uk/wp-content/uploads/2019/12/wall-graphics.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #f5a30b;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  margin: 16px 0px;
+}
+
+.btn-primary:hover {
+  background-color: #dd9206;
+}
+
+.btn-secondary {
+  border: 1px solid #1EDD88;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #1EDD88;
+}
+
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card2 img {
+  border-radius: 50%;
+  height: 100px
+}
+
+.card2 p {
+  opacity: .5;
+}
+
+.card2 {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #1EDD88;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
+
+
+
+
+
+
+
+
